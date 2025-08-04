@@ -44,6 +44,9 @@ Other algorithms were considered:
 
 In short, Dijkstra’s Algorithm provides the best balance of speed, simplicity, and accuracy for this project.
 
+## Output
+<img width="718" height="601" alt="Image" src="https://github.com/user-attachments/assets/d004d81f-3303-4366-8775-7575c0dc4021" />
+
 ## Future Improvements
 Some ideas for future versions include:
 • Adding flight durations in addition to prices.
