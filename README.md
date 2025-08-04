@@ -1,4 +1,4 @@
-# Flight Agenda – Airport Routing System
+# Flight Agenda 
 
 Flight Agenda is a C++ console-based project designed to help users find the cheapest possible route between airports using Dijkstra’s Algorithm.  
 It works by representing each airport as a node in a graph and each flight connection as an edge with an associated price.  
@@ -14,13 +14,11 @@ The system starts with pre-defined flight prices so that a user can check the ch
 Once a user selects a source and destination, the system calculates the cheapest route, prints it in a readable format with airport names, and displays the total cost in INR for clarity. This makes the system easy to use and understand, even for those not familiar with graph theory.
 
 ## Tech Used
-
 The project is built entirely in C++, relying on Dijkstra’s Algorithm for computing the shortest path in a weighted graph.  
 It uses:
 - Arrays to store distances and visited nodes.
 - Linked Lists to manage airport and airline data.
 - Queues for intermediate data handling.
-- Procedural Programming to keep the flow simple and efficient.
   
 It runs as a console-based application, meaning it’s lightweight, fast, and requires no special dependencies.
 
@@ -33,11 +31,11 @@ Since the system is modular and data-driven, it can be easily adapted to other t
 ## Why Dijkstra’s Algorithm?
 
 Choosing the right algorithm was crucial for this project. I went with Dijkstra’s Algorithm because it is:
-- Accurate — It always finds the true cheapest route.
-- Efficient — Works well with our network size without unnecessary complexity.
-- Perfect for Positive Costs — Flight prices are never negative, making it ideal for Dijkstra.
-- Straightforward to Implement — Easier to code and maintain compared to more complex alternatives.
-- Deterministic — Produces the same correct results every time.
+• Accurate — It always finds the true cheapest route.
+• Efficient — Works well with our network size without unnecessary complexity.
+• Perfect for Positive Costs — Flight prices are never negative, making it ideal for Dijkstra.
+• Straightforward to Implement — Easier to code and maintain compared to more complex alternatives.
+• Deterministic — Produces the same correct results every time.
 
 Other algorithms were considered:
 - Bellman-Ford handles negative weights but is slower and unnecessary here.
@@ -46,4 +44,15 @@ Other algorithms were considered:
 
 In short, Dijkstra’s Algorithm provides the best balance of speed, simplicity, and accuracy for this project.
 
+## Future Improvements
+Some ideas for future versions include:
+• Adding flight durations in addition to prices.
+• Allowing airlines to update prices dynamically.
+• Creating a graphical interface for easier interaction.
+• Integrating with real-world airline APIs for live pricing.
 
+
+## Author
+Astha Tiwari
+Engineering student passionate about turning algorithms into practical, real-world solutions. Creator of Flight Agenda as a hands-on application of Dijkstra’s shortest path algorithm.
+GitHub: https://github.com/AsthaTiwari812
